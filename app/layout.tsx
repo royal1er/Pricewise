@@ -12,6 +12,9 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "GwadaProjets",
   description: "Simplifiez la recherche d'appels d'offres en Guadeloupe.",
+  icons: {
+    icon: '/favicon.ico'
+  }
 };
 
 export default function RootLayout({
@@ -21,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+          <link rel="icon" href="/path/to/your/favicon.ico" />
+      </head>
       <body className={inter.className}>
         <main className="max-w-10xl mx-auto">
           <Navbar />

@@ -89,7 +89,7 @@ export function extractCurrency(element: any) {
     return averagePrice;
   }
   
-  /*export const getEmailNotifType = (
+  export const getEmailNotifType = (
     scrapedProduct: Product,
     currentProduct: Product
   ) => {
@@ -106,7 +106,7 @@ export function extractCurrency(element: any) {
     }
   
     return null;
-  };*/
+  };
   
   export const formatNumber = (num: number = 0) => {
     return num.toLocaleString(undefined, {
